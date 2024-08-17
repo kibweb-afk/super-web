@@ -1,6 +1,19 @@
 #tx1,#tx2{
     color:green;
-    font-size: 800px;
-    margin-top:600px;
+    font-size: 200px;
+    margin-top:100px;
     text-shadow: -15px  -3px 12px black;
+}
+#bd{
+    background-image: url(pine-watt-2Hzmz15wGik-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#bd2{
+    background-image: url(joshua-fuller-SFRVfLZ7ORo-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+
 }
