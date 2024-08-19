@@ -4,7 +4,7 @@
     margin-top:100px;
     text-shadow: -15px  -3px 12px black;
 }
-#bd{
+#bd,#img{
     background-image: url(images.jpg);
     background-repeat:no-repeat;
     background-position:center;
@@ -23,10 +23,15 @@
     100%{background-size: 1000px;}
 
 }
-#bd2{
-    background-image: url(joshua-fuller-SFRVfLZ7ORo-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+#img{
+    border: solid;
+    border-color: red;
+    box-shadow: -15px 20px 44px red;
+    animation: rota;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
 
-
+}
+@keyframes rota{
+    100%{transform: rotateY(720deg);}
 }
