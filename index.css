@@ -1,0 +1,41 @@
+
+body{
+    background-color: darkgreen;
+}
+#img{
+    width: 400px;
+    height:400px;
+    border: solid;
+    border-color: red;
+    animation:rot;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes rot{
+    100%{transform: rotateY(360deg);}
+}
+#img1{
+    width:1400px;
+    height:1400px;
+    animation:rot;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes rot{
+    100%{transform: rotateY(360deg);}
+}
+#tx1{
+    font-size: 180px;
+    font-weight: bolder;
+    text-shadow: -15px -2px 35px white;
+}
+#tx2{
+    width:4700px;
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+   border: solid; 
+   border-color: red;
+   border-width: 10px;
+    
+}
