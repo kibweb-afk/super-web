@@ -1,5 +1,5 @@
 
-body{
+#bod{
     background-color: darkgreen;
 }
 #img{
@@ -31,11 +31,14 @@ body{
 }
 #tx2{
     width:4700px;
-    color: white;
+    color: rgb(5, 5, 5);
     font-size: 80px;
     font-weight: bolder;
    border: solid; 
    border-color: red;
    border-width: 10px;
     
+}
+#bod1{
+    background: linear-gradient(to right , red,white,  green);
 }
