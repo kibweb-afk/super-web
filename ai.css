@@ -1,0 +1,32 @@
+.tx{
+    color: rgb(8, 143, 69);
+    font-family: Impact;
+    font-weight: bolder;
+}
+.im,.tx{
+    animation: rot;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+}
+@keyframes rot{
+    50%{transform: rotateY(360deg);}
+    50%{transform: rotateZ(360deg);}
+}
+.lnk{
+    font-size: 35px;
+}
+.im1,.tx1{
+    width: 300px;
+    height: 300px;
+    border: solid;
+    position: absolute;
+}
+#v1{
+   
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    width: 1020px;
+    height:500px;
+
+}
